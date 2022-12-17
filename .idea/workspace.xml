@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0203ec8f-5f32-4649-9b9d-7d36ecf086a4" name="Changes" comment="Partially configured POM methods (page steps). Have to continue later.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/NavigationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/RegistrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/rest/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/rest/UserPojo.java" afterDir="false" />
+    <list default="true" id="0203ec8f-5f32-4649-9b9d-7d36ecf086a4" name="Changes" comment="Created register user test and login test.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/LogoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/constructor/ConstructorPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/constructor/ConstructorPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/feed/FeedPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/feed/FeedPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/header/HeaderPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/header/HeaderPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/header/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/header/HeaderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/login/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/login/LoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/profile/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/profile/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/profile/ProfilePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/profile/ProfilePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/register/RegisterPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/register/RegisterPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/reset_password/ResetPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/reset_password/ResetPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/reset_password/ResetPasswordPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/stellarburgers/nomoreparties/reset_password/ResetPasswordPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/constructor/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/stellarburgers/nomoreparties/NavigationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
       <recent name="site.stellarburgers.nomoreparties" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NavigationTest.testHeaderLogin">
+  <component name="RunManager" selected="JUnit.LogoutTest.testLogout">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diplom-3" />
       <extension name="coverage">
@@ -112,6 +101,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.stellarburgers.nomoreparties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.stellarburgers.nomoreparties" />
+      <option name="MAIN_CLASS_NAME" value="site.stellarburgers.nomoreparties.LogoutTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTest.testLogout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.stellarburgers.nomoreparties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.stellarburgers.nomoreparties" />
+      <option name="MAIN_CLASS_NAME" value="site.stellarburgers.nomoreparties.LogoutTest" />
+      <option name="METHOD_NAME" value="testLogout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NavigationTest.testHeaderLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diplom-3" />
       <extension name="coverage">
@@ -128,45 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testSuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.stellarburgers.nomoreparties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="site.stellarburgers.nomoreparties" />
-      <option name="MAIN_CLASS_NAME" value="site.stellarburgers.nomoreparties.RegistrationTest" />
-      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTest.testUnsuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.stellarburgers.nomoreparties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="site.stellarburgers.nomoreparties" />
-      <option name="MAIN_CLASS_NAME" value="site.stellarburgers.nomoreparties.RegistrationTest" />
-      <option name="METHOD_NAME" value="testUnsuccessfulRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogoutTest.testLogout" />
+        <item itemvalue="JUnit.LogoutTest" />
         <item itemvalue="JUnit.NavigationTest.testHeaderLogin" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.testMainPageLogin" />
-        <item itemvalue="JUnit.RegistrationTest.testUnsuccessfulRegistration" />
-        <item itemvalue="JUnit.RegistrationTest.testSuccessfulRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671279925733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created register user test and login test.">
+      <created>1671307279071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671307279071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +213,7 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Successfully configured POM locators." />
     <MESSAGE value="Partially configured POM methods (page steps). Have to continue later." />
-    <option name="LAST_COMMIT_MESSAGE" value="Partially configured POM methods (page steps). Have to continue later." />
+    <MESSAGE value="Created register user test and login test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created register user test and login test." />
   </component>
 </project>

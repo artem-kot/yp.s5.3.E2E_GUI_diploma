@@ -17,7 +17,7 @@ public class HeaderPage {
     @FindBy(how = How.XPATH,using = "//p[text()='Личный Кабинет']")
     protected SelenideElement headerLoginButton;
 
-    @FindBy(how = How.CLASS_NAME,using = "active")
+    @FindBy(how = How.CLASS_NAME,using = "AppHeader_header__logo__2D0X2")
     protected SelenideElement headerLogoImage;
 
 }

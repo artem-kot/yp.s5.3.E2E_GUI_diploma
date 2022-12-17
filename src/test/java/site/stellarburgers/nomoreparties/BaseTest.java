@@ -56,4 +56,5 @@ public class BaseTest {
     String successfulRegistrationProfileTabName = "Профиль";
     String invalidPasswordErrorMessage = "Некорректный пароль";
     String ingredientsTittleText = "Соберите бургер";
+    String loginPageTitle = "Вход";
 }

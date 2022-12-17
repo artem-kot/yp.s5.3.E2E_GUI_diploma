@@ -22,7 +22,7 @@ public class NavigationTest extends BaseTest {
             "3. Navigating to the profile." +
             "4. Navigating to the main page using link in the logo. " +
             "Deleting profile after the test.")
-    public void testHeaderLogin() {
+    public void testNavigation() {
         ConstructorPageSteps page = open(url, HeaderPageSteps.class)
                 .goToLogin()
                 .goToRegister()
@@ -47,58 +47,4 @@ public class NavigationTest extends BaseTest {
 
         deleteTestUser();
     }
-
-    @Test
-    @DisplayName("Test login via main page button")
-    @Description("Navigating to registration, passing valid data, logging in via button on the main page, validating that login was successful. Deleting profile after the test.")
-    public void testMainPageLogin() {
-        assertThat(open(url, HeaderPageSteps.class)
-                .goToLogin()
-                .goToRegister()
-                .validRegistration(name, email, validPassword)
-                .header()
-                .goToConstructor()
-                .waitUntilPageIsLoaded()
-                .goToLogin()
-                .validLogin(email, validPassword)
-                .header()
-                .goToProfile()
-                .getActiveChapterTitle(),equalTo(successfulRegistrationProfileTabName));
-        deleteTestUser();
-    }
-
-    @Test
-    @DisplayName("Test login via link on registration page")
-    @Description("Navigating to registration, passing valid data, logging in via button on the registration page, validating that login was successful. Deleting profile after the test.")
-    public void testRegistrationPageLogin() {
-        assertThat(open(url, HeaderPageSteps.class)
-                .goToLogin()
-                .goToRegister()
-                .validRegistration(name, email, validPassword)
-                .goToRegister()
-                .goToLogin()
-                .validLogin(email, validPassword)
-                .header()
-                .goToProfile()
-                .getActiveChapterTitle(),equalTo(successfulRegistrationProfileTabName));
-        deleteTestUser();
-    }
-
-    @Test
-    @DisplayName("Test login via link on reset password page")
-    @Description("Navigating to registration, passing valid data, logging in via button on the reset password page, validating that login was successful. Deleting profile after the test.")
-    public void testResetPasswordPageLogin() {
-        assertThat(open(url, HeaderPageSteps.class)
-                .goToLogin()
-                .goToRegister()
-                .validRegistration(name, email, validPassword)
-                .goToResetPassword()
-                .goToLogin()
-                .validLogin(email, validPassword)
-                .header()
-                .goToProfile()
-                .getActiveChapterTitle(),equalTo(successfulRegistrationProfileTabName));
-        deleteTestUser();
-    }
-
 }

@@ -63,4 +63,8 @@ public class LoginPageSteps extends LoginPage{
         loginPageResetPasswordLink.click();
         return page(ResetPasswordPageSteps.class);
     }
+
+    public String getLoginPageTitle(){
+        return loginPageInputFieldsTitle.getText();
+    }
 }
