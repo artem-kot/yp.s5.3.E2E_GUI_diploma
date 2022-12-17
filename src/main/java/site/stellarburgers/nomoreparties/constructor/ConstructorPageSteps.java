@@ -2,6 +2,7 @@ package site.stellarburgers.nomoreparties.constructor;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import site.stellarburgers.nomoreparties.header.HeaderPageSteps;
 import site.stellarburgers.nomoreparties.login.LoginPageSteps;
 
@@ -18,6 +19,7 @@ public class ConstructorPageSteps extends ConstructorPage{
         return page(ConstructorPageSteps.class);
     }
 
+    @Step("Navigate to login page")
     public LoginPageSteps goToLogin(){
         mainPageLoginButton.click();
         return page(LoginPageSteps.class);
@@ -39,6 +41,10 @@ public class ConstructorPageSteps extends ConstructorPage{
         mainPageIngredientsDisplayBuns.click();
         mainPageIngredientsDisplayBunsChapterTitle.shouldBe(Condition.visible);
         return page(ConstructorPageSteps.class);
+    }
+
+    public String getIngredientsTitle(){
+        return mainPageHeaderText.getText();
     }
 
 }

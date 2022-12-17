@@ -18,5 +18,17 @@ public class ResetPasswordPage {
     @FindBy(how = How.XPATH, using = "//a[text()='Войти']")
     protected SelenideElement resetPasswordPageLoginLink;
 
+//    additional fields after reset attempt
+
+    @FindBy(how = How.XPATH, using = "//label[text()='Пароль']/following-sibling::input")
+    protected SelenideElement resetPasswordPageInputFieldPassword;
+
+    @FindBy(how = How.XPATH, using = "//label[text()='Введите код из письма']/following-sibling::input")
+    protected SelenideElement resetPasswordPageInputFieldCode;
+
+    @FindBy(how = How.XPATH, using = "//button[text()='Сохранить']")
+    protected SelenideElement resetPasswordPageSaveNewPasswordButton;
+
+
 }
 

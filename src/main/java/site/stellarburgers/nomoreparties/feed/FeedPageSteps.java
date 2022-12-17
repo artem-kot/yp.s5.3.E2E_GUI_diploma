@@ -16,4 +16,7 @@ public class FeedPageSteps extends FeedPage{
         return page(HeaderPageSteps.class);
     }
 
+    public String getOverallOrders(){
+        return feedPageOverallCookedValue.getText();
+    }
 }
