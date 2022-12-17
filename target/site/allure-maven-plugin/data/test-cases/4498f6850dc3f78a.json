@@ -1,0 +1,213 @@
+{
+  "uid" : "4498f6850dc3f78a",
+  "name" : "Test login via header button",
+  "fullName" : "site.stellarburgers.nomoreparties.LoginTest.testHeaderLogin",
+  "historyId" : "d665a97a474368d1bc8f4b6a16c8b114",
+  "time" : {
+    "start" : 1671310811962,
+    "stop" : 1671310822864,
+    "duration" : 10902
+  },
+  "description" : "Navigating to registration, passing valid data, logging in via button in the header, validating that login was successful. Deleting profile after the test.",
+  "descriptionHtml" : "<p>Navigating to registration, passing valid data, logging in via button in the header, validating that login was successful. Deleting profile after the test.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Navigating to registration, passing valid data, logging in via button in the header, validating that login was successful. Deleting profile after the test.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to login page",
+      "time" : {
+        "start" : 1671310814385,
+        "stop" : 1671310815478,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to register page",
+      "time" : {
+        "start" : 1671310815478,
+        "stop" : 1671310815774,
+        "duration" : 296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Registering with valid credentials",
+      "time" : {
+        "start" : 1671310815775,
+        "stop" : 1671310818892,
+        "duration" : 3117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "JohnDoe"
+      }, {
+        "name" : "email",
+        "value" : "dfCVBMgBm@example.org"
+      }, {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to login page",
+      "time" : {
+        "start" : 1671310818893,
+        "stop" : 1671310819122,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Login with valid credentials",
+      "time" : {
+        "start" : 1671310819123,
+        "stop" : 1671310821190,
+        "duration" : 2067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "dfCVBMgBm@example.org"
+      }, {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to profile page",
+      "time" : {
+        "start" : 1671310821191,
+        "stop" : 1671310821785,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Cleaning test data",
+      "time" : {
+        "start" : 1671310822082,
+        "stop" : 1671310822755,
+        "duration" : 673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ba886f959461767",
+        "name" : "Request",
+        "source" : "5ba886f959461767.html",
+        "type" : "text/html",
+        "size" : 761
+      }, {
+        "uid" : "4840d9369e359c9e",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "4840d9369e359c9e.html",
+        "type" : "text/html",
+        "size" : 1787
+      }, {
+        "uid" : "6f8ba991a00de3f0",
+        "name" : "Request",
+        "source" : "6f8ba991a00de3f0.html",
+        "type" : "text/html",
+        "size" : 793
+      }, {
+        "uid" : "b3eff0c6186e0617",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "b3eff0c6186e0617.html",
+        "type" : "text/html",
+        "size" : 1318
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.stellarburgers.nomoreparties"
+  }, {
+    "name" : "testClass",
+    "value" : "site.stellarburgers.nomoreparties.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHeaderLogin"
+  }, {
+    "name" : "suite",
+    "value" : "Testing login functionality"
+  }, {
+    "name" : "host",
+    "value" : "Artems-Air.fritz.box"
+  }, {
+    "name" : "thread",
+    "value" : "5112@Artems-Air.fritz.box.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4498f6850dc3f78a.json",
+  "parameterValues" : [ ]
+}
