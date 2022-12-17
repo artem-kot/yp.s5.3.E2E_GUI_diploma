@@ -2,7 +2,6 @@ package site.stellarburgers.nomoreparties.constructor;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.impl.CollectionElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -20,10 +19,10 @@ public class ConstructorPage {
     protected SelenideElement mainPageIngredientsDisplayBunsChapterTitle;
 
     @FindBy(how = How.XPATH, using = "//span[text()='Соусы']")
-    protected SelenideElement mainPageIngredientsDisplaySouces;
+    protected SelenideElement mainPageIngredientsDisplaySauces;
 
     @FindBy(how = How.XPATH, using = "//h2[text()='Соусы']")
-    protected SelenideElement mainPageIngredientsDisplaySoucesChapterTitle;
+    protected SelenideElement mainPageIngredientsDisplaySaucesChapterTitle;
 
     @FindBy(how = How.XPATH, using = "//span[text()='Начинки']")
     protected SelenideElement mainPageIngredientsDisplayToppings;

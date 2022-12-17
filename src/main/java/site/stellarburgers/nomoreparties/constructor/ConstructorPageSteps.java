@@ -1,7 +1,6 @@
 package site.stellarburgers.nomoreparties.constructor;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import site.stellarburgers.nomoreparties.header.HeaderPageSteps;
 import site.stellarburgers.nomoreparties.login.LoginPageSteps;
@@ -32,8 +31,8 @@ public class ConstructorPageSteps extends ConstructorPage{
     }
 
     public ConstructorPageSteps scrollIngredientsDisplayToSauces(){
-        mainPageIngredientsDisplaySouces.click();
-        mainPageIngredientsDisplaySoucesChapterTitle.shouldBe(Condition.visible);
+        mainPageIngredientsDisplaySauces.click();
+        mainPageIngredientsDisplaySaucesChapterTitle.shouldBe(Condition.visible);
         return page(ConstructorPageSteps.class);
     }
 

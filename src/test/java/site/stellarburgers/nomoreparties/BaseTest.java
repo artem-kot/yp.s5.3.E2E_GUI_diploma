@@ -32,7 +32,7 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         browser = "chrome";
         driverManagerEnabled = true;
-        headless = false;
+        headless = true;
     }
 
     @Step("Cleaning test data")
