@@ -13,16 +13,16 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class BaseTest {
 
-    String url = "https://stellarburgers.nomoreparties.site/";
-    String email = RandomStringUtils.randomAlphabetic(9) + "@example.org";
-    String name = "JohnDoe";
-    String validPassword = "123456";
-    String invalidPassword = "12345";
+    protected String url = "https://stellarburgers.nomoreparties.site/";
+    protected String email = RandomStringUtils.randomAlphabetic(9) + "@example.org";
+    protected String name = "JohnDoe";
+    protected String validPassword = "123456";
+    protected String invalidPassword = "12345";
     //    Test data is present below.
-    String successfulRegistrationProfileTabName = "Профиль";
-    String invalidPasswordErrorMessage = "Некорректный пароль";
-    String ingredientsTittleText = "Соберите бургер";
-    String loginPageTitle = "Вход";
+    protected String successfulRegistrationProfileTabName = "Профиль";
+    protected String invalidPasswordErrorMessage = "Некорректный пароль";
+    protected String ingredientsTittleText = "Соберите бургер";
+    protected String loginPageTitle = "Вход";
 
     public void setUp() {
         /* Lines below are used to start Yandex.Browser */
