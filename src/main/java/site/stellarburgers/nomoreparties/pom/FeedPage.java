@@ -1,9 +1,12 @@
-package site.stellarburgers.nomoreparties.feed;
+package site.stellarburgers.nomoreparties.pom;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
+import static com.codeborne.selenide.Selenide.page;
 
 public class FeedPage {
 
@@ -33,4 +36,17 @@ public class FeedPage {
 
     @FindBy(how = How.XPATH, using = "//p[text()='Выполнено за сегодня:']/following-sibling::p")
     protected SelenideElement feedPageTodayCookedValue;
+
+    public HeaderPage header() {
+        return page(HeaderPage.class);
+    }
+
+    public HeaderPage waitUntilPageIsLoaded() {
+        feedPageHeaderText.shouldBe(Condition.interactable);
+        return page(HeaderPage.class);
+    }
+
+    public String getOverallOrders() {
+        return feedPageOverallCookedValue.getText();
+    }
 }

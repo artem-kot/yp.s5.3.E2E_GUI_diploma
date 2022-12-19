@@ -3,10 +3,7 @@ package site.stellarburgers.nomoreparties;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import site.stellarburgers.nomoreparties.constructor.ConstructorPageSteps;
-import site.stellarburgers.nomoreparties.header.HeaderPageSteps;
-import site.stellarburgers.nomoreparties.login.LoginPageSteps;
-import site.stellarburgers.nomoreparties.profile.ProfilePageSteps;
+import site.stellarburgers.nomoreparties.pom.HeaderPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -20,7 +17,7 @@ public class LogoutTest extends BaseTest {
     @Description("Navigating to registration, passing valid data, logging in, navigating to the profile, logging out." +
             "Validating successful logout. Deleting profile after the test.")
     public void testLogout() {
-        assertThat(open(url, HeaderPageSteps.class)
+        assertThat(open(url, HeaderPage.class)
                 .goToLogin()
                 .goToRegister()
                 .validRegistration(name, email, validPassword)

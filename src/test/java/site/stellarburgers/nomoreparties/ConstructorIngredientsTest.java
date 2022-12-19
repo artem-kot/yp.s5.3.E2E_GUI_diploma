@@ -3,8 +3,7 @@ package site.stellarburgers.nomoreparties;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-import site.stellarburgers.nomoreparties.constructor.ConstructorPageSteps;
-import site.stellarburgers.nomoreparties.header.HeaderPageSteps;
+import site.stellarburgers.nomoreparties.pom.ConstructorPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -17,7 +16,7 @@ public class ConstructorIngredientsTest extends BaseTest {
     @DisplayName("Test switching among ingredients on the main page")
     @Description("Navigating to main page, continuously clicking toppings, sauces and buns, validating appearance of correct ingredients on the screen.")
     public void testSwitchingIngredients() {
-        assertThat(open(url, ConstructorPageSteps.class)
+        assertThat(open(url, ConstructorPage.class)
                 .scrollIngredientsDisplayToToppings()
                 .scrollIngredientsDisplayToSauces()
                 .scrollIngredientsDisplayToBuns()

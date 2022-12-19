@@ -8,8 +8,6 @@ import org.junit.Before;
 import site.stellarburgers.nomoreparties.rest.UserApi;
 import site.stellarburgers.nomoreparties.rest.UserPojo;
 
-import java.io.IOException;
-
 import static com.codeborne.selenide.Configuration.*;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
@@ -20,6 +18,11 @@ public class BaseTest {
     String name = "JohnDoe";
     String validPassword = "123456";
     String invalidPassword = "12345";
+    //    Test data is present below.
+    String successfulRegistrationProfileTabName = "Профиль";
+    String invalidPasswordErrorMessage = "Некорректный пароль";
+    String ingredientsTittleText = "Соберите бургер";
+    String loginPageTitle = "Вход";
 
     public void setUp() {
         /* Lines below are used to start Yandex.Browser */
@@ -36,7 +39,7 @@ public class BaseTest {
     }
 
     @Step("Cleaning test data")
-    public void deleteTestUser(){
+    public void deleteTestUser() {
         UserApi api = new UserApi();
         api.deleteUser(new UserPojo(email, validPassword, name));
     }
@@ -50,11 +53,4 @@ public class BaseTest {
     public void teardown() {
         closeWebDriver();
     }
-
-
-//    Test data is present below.
-    String successfulRegistrationProfileTabName = "Профиль";
-    String invalidPasswordErrorMessage = "Некорректный пароль";
-    String ingredientsTittleText = "Соберите бургер";
-    String loginPageTitle = "Вход";
 }

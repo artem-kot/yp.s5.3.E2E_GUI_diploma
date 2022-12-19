@@ -1,8 +1,11 @@
-package site.stellarburgers.nomoreparties.reset_password;
+package site.stellarburgers.nomoreparties.pom;
 
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
+import static com.codeborne.selenide.Selenide.page;
 
 public class ResetPasswordPage {
 
@@ -29,6 +32,19 @@ public class ResetPasswordPage {
     @FindBy(how = How.XPATH, using = "//button[text()='Сохранить']")
     protected SelenideElement resetPasswordPageSaveNewPasswordButton;
 
+    public HeaderPage header() {
+        return page(HeaderPage.class);
+    }
 
+    public ResetPasswordPage fillEmail(String email) {
+        resetPasswordPageInputFieldEmail.clear();
+        resetPasswordPageInputFieldEmail.sendKeys(email);
+        return page(ResetPasswordPage.class);
+    }
+
+    @Step("Navigate to login page")
+    public LoginPage goToLogin() {
+        resetPasswordPageLoginLink.click();
+        return page(LoginPage.class);
+    }
 }
-
