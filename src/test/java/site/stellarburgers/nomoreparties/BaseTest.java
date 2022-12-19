@@ -18,7 +18,6 @@ public class BaseTest {
     protected String name = "JohnDoe";
     protected String validPassword = "123456";
     protected String invalidPassword = "12345";
-    //    Test data is present below.
     protected String successfulRegistrationProfileTabName = "Профиль";
     protected String invalidPasswordErrorMessage = "Некорректный пароль";
     protected String ingredientsTittleText = "Соберите бургер";

@@ -81,5 +81,4 @@ public class LoginTest extends BaseTest {
                 .getActiveChapterTitle(), equalTo(successfulRegistrationProfileTabName));
         deleteTestUser();
     }
-
 }

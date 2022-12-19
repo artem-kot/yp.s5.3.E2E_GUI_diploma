@@ -37,6 +37,4 @@ public class RegistrationTest extends BaseTest {
                 .validRegistration(name, email, invalidPassword)
                 .getLoginErrorMessage(), equalTo(invalidPasswordErrorMessage));
     }
-
-
 }
