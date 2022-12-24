@@ -1,0 +1,14 @@
+site/stellarburgers/nomoreparties/constructor/ConstructorPageSteps.class
+site/stellarburgers/nomoreparties/reset_password/ResetPasswordPageSteps.class
+site/stellarburgers/nomoreparties/register/RegisterPageSteps.class
+site/stellarburgers/nomoreparties/feed/FeedPageSteps.class
+site/stellarburgers/nomoreparties/constructor/ConstructorPage.class
+site/stellarburgers/nomoreparties/feed/FeedPage.class
+site/stellarburgers/nomoreparties/login/LoginPageSteps.class
+site/stellarburgers/nomoreparties/header/HeaderPage.class
+site/stellarburgers/nomoreparties/profile/ProfilePageSteps.class
+site/stellarburgers/nomoreparties/profile/ProfilePage.class
+site/stellarburgers/nomoreparties/login/LoginPage.class
+site/stellarburgers/nomoreparties/register/RegisterPage.class
+site/stellarburgers/nomoreparties/reset_password/ResetPasswordPage.class
+site/stellarburgers/nomoreparties/header/HeaderPageSteps.class

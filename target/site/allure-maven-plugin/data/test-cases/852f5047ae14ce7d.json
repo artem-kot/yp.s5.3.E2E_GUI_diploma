@@ -1,0 +1,123 @@
+{
+  "uid" : "852f5047ae14ce7d",
+  "name" : "Test unsuccessful registration",
+  "fullName" : "site.stellarburgers.nomoreparties.RegistrationTest.testUnsuccessfulRegistration",
+  "historyId" : "7847375683ff02fb4a548203aa2c80f3",
+  "time" : {
+    "start" : 1671310782060,
+    "stop" : 1671310788886,
+    "duration" : 6826
+  },
+  "description" : "Navigating to registration, passing invalid data, checking error message.",
+  "descriptionHtml" : "<p>Navigating to registration, passing invalid data, checking error message.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Navigating to registration, passing invalid data, checking error message.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to login page",
+      "time" : {
+        "start" : 1671310784299,
+        "stop" : 1671310785332,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to register page",
+      "time" : {
+        "start" : 1671310785333,
+        "stop" : 1671310785637,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Registering with valid credentials",
+      "time" : {
+        "start" : 1671310785638,
+        "stop" : 1671310788573,
+        "duration" : 2935
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "JohnDoe"
+      }, {
+        "name" : "email",
+        "value" : "suhvdLXNJ@example.org"
+      }, {
+        "name" : "password",
+        "value" : "12345"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.stellarburgers.nomoreparties"
+  }, {
+    "name" : "testClass",
+    "value" : "site.stellarburgers.nomoreparties.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUnsuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Testing registration functionality"
+  }, {
+    "name" : "host",
+    "value" : "Artems-Air.fritz.box"
+  }, {
+    "name" : "thread",
+    "value" : "5112@Artems-Air.fritz.box.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "852f5047ae14ce7d.json",
+  "parameterValues" : [ ]
+}

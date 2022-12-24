@@ -1,0 +1,122 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test switching among ingredients on the main page",
+    "uid" : "74eae0f7a9017680",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310753875,
+      "stop" : 1671310764197,
+      "duration" : 10322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test successful registration",
+    "uid" : "8be8ba3e77a3d8d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310764362,
+      "stop" : 1671310782045,
+      "duration" : 17683
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test unsuccessful registration",
+    "uid" : "852f5047ae14ce7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310782060,
+      "stop" : 1671310788886,
+      "duration" : 6826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test login via main page button",
+    "uid" : "8f9a7355acc0125b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310788897,
+      "stop" : 1671310799701,
+      "duration" : 10804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test login via link on registration page",
+    "uid" : "26ea4ccf7c0ec797",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310799714,
+      "stop" : 1671310811952,
+      "duration" : 12238
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test login via header button",
+    "uid" : "4498f6850dc3f78a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310811962,
+      "stop" : 1671310822864,
+      "duration" : 10902
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test login via link on reset password page",
+    "uid" : "48dee52403da9191",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310822879,
+      "stop" : 1671310834188,
+      "duration" : 11309
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test navigation to the main page and to the user profile",
+    "uid" : "4017ebed4eeac6c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310834203,
+      "stop" : 1671310847251,
+      "duration" : 13048
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test logout from the profile",
+    "uid" : "10d12682c0643d5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1671310847277,
+      "stop" : 1671310859012,
+      "duration" : 11735
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

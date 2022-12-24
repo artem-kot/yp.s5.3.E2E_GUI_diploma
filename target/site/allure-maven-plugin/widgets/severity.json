@@ -1,0 +1,91 @@
+[ {
+  "uid" : "852f5047ae14ce7d",
+  "name" : "Test unsuccessful registration",
+  "time" : {
+    "start" : 1671310782060,
+    "stop" : 1671310788886,
+    "duration" : 6826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4498f6850dc3f78a",
+  "name" : "Test login via header button",
+  "time" : {
+    "start" : 1671310811962,
+    "stop" : 1671310822864,
+    "duration" : 10902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f9a7355acc0125b",
+  "name" : "Test login via main page button",
+  "time" : {
+    "start" : 1671310788897,
+    "stop" : 1671310799701,
+    "duration" : 10804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48dee52403da9191",
+  "name" : "Test login via link on reset password page",
+  "time" : {
+    "start" : 1671310822879,
+    "stop" : 1671310834188,
+    "duration" : 11309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10d12682c0643d5e",
+  "name" : "Test logout from the profile",
+  "time" : {
+    "start" : 1671310847277,
+    "stop" : 1671310859012,
+    "duration" : 11735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26ea4ccf7c0ec797",
+  "name" : "Test login via link on registration page",
+  "time" : {
+    "start" : 1671310799714,
+    "stop" : 1671310811952,
+    "duration" : 12238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4017ebed4eeac6c1",
+  "name" : "Test navigation to the main page and to the user profile",
+  "time" : {
+    "start" : 1671310834203,
+    "stop" : 1671310847251,
+    "duration" : 13048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74eae0f7a9017680",
+  "name" : "Test switching among ingredients on the main page",
+  "time" : {
+    "start" : 1671310753875,
+    "stop" : 1671310764197,
+    "duration" : 10322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8be8ba3e77a3d8d0",
+  "name" : "Test successful registration",
+  "time" : {
+    "start" : 1671310764362,
+    "stop" : 1671310782045,
+    "duration" : 17683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
